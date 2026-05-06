@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            position:absolute;
+            top:50%; 
+            left:50%; 
+            transform: translate(-50%,-50%);
+        }
+        p{
+            font-family: monospace;
+            margin-top:10px; 
+             margin-left:10px; 
+             margin-bottom:20px; 
+        }
+        fieldset{
+            border: none; 
+            box-shadow: 0 4px 8px rgba(0,0,0,.2), 0 6px 8px rgba(0,0,0,.20); 
+            border-radius:4px; 
+        }
+        button{
+            border:2px solid #000; 
+            width: 150px; 
+            background-color:#fff;
+            cursor: pointer;
+        }
+        legend{
+            font-family: monospace;
+            margin-left:10px; 
+            font-size:20px; 
+        }
+        button{
+            margin-top:10px; 
+            margin-left:10px; 
+        }
+    </style>
+</head>
+<body>
+    <fieldset>
+        <legend>Product Filtration Application</legend>
+    <button onclick="Electronics()">Electronics</button>
+    <button onclick="Home()">Home</button>
+    <button onclick="Computer()">Computer Accessories</button>
+    <button onclick="Wearable()">Wearable Technologies</button>
+    <button onclick="Beauty()">Beauty & Fragrance</button>
+    <br>
+    <p id="demo">
+    1. Product-Name : Travel Adapter , Caetgory : Electronics, Price : 400 - 2000 <br> 
+    2. Product-Name : Bluetooth Wireless Earphones , Caetgory : Electronics, Price : 800 - 5000 <br> 
+    3. Product-Name : NutriPro Juicer Mixer Grinder , Caetgory : Home, Price : 1599 - 3000 <br> 
+    4. Product-Name : Garbage Bags , Caetgory : Home, Price : 150 - 400 <br> 
+    5. Product-Name : Portable Air Conditionar , Caetgory : Home, Price : 3099 - 6000 <br> 
+    6. Product-Name : Laptop Backpack , Caetgory : Computer Accessories, Price : 500 - 2500 <br> 
+    7. Product-Name : Wireless Optical Mouse , Caetgory : Computer Accessories, Price : 300 - 1000 <br> 
+    8. Product-Name : Smartwatch , Caetgory : Wearable Technologies, Price : 1500 - 2500 <br> 
+    9. Product-Name : Perfume , Caetgory : Beauty & Fragrance, Price : 500 - 3000 <br> 
+    10. Product-Name : Trolley Bags , Caetgory : Home, Price : 600 - 2000 <br> 
+   </p>
+    </fieldset>
+    <script src="main.js"></script>
+</body>
+</html>
