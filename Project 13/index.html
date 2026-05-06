@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            position: absolute;
+            top:50%; 
+            left:50%;
+            transform: translate(-50%,-50%);
+            background-color: hsl(0,0%,94%);
+        }
+        .container{
+            width:500px; 
+            height:250px;
+            background-color: #fff;
+            box-shadow:0 4px 8px rgba(0,0,0,.2), 0 6px 8px rgba(0,0,0,.20); 
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        input[type="number"]{
+            width: 300px; 
+            height: 28px; 
+            border:2px solid #000;
+        }
+        input[type="number"]:focus{
+            outline:none;
+        }
+          input[type="text"]{
+            width: 300px; 
+            height: 28px; 
+            border:2px solid #000;
+        }
+        input[type="text"]:focus{
+            outline:none;
+        }
+        button{
+             width: 300px; 
+            height: 28px; 
+        }
+    </style>
+</head>
+<body>
+            <div class="container">
+                <center>
+                <h2>Tempreature Converter</h2>
+                <br>
+                <label for="Celsius-To-Farenheit">
+                    Celsius<br>
+                    <input type="number" id="num-1"/> <br>
+                </label> <br><br>
+
+                    <label for="to">To</label>
+                    <br><br>
+
+                  <label for="Farenheit-To-Celsius">
+                    Farenheit <br>
+                    <input type="text" id="num-2"/> <br>
+                </label> <br><br>
+
+
+                 <label for="Celsius-To-Farenheit">
+                    Farenheit<br>
+                    <input type="number" id="num-3"/> <br>
+                </label> <br><br>
+
+                    <label for="to">To</label>
+                    <br><br>
+
+                  <label for="Farenheit-To-Celsius">
+                    Celsius <br>
+                    <input type="text" id="num-4"/> <br>
+                </label> <br><br>
+
+                <button id="click">Convert</button>
+                </center>
+            </div>
+
+            <script src="main.js"></script>
+</body>
+</html>
